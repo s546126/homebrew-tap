@@ -11,7 +11,6 @@ cask "disklessly" do
   homepage "https://github.com/s546126/disklessly"
 
   depends_on macos: ">= :ventura"
-  conflicts_with formula: "disklessly-cli"
 
   app "Disklessly.app"
   # The CLI and the stub launcher live in Contents/MacOS; the symlinks resolve back into the app.
