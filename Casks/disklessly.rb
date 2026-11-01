@@ -3,7 +3,7 @@
 # (for example s546126/homebrew-tap/Casks/disklessly.rb).
 cask "disklessly" do
   version "0.1.0"
-  sha256 "f7d4556381fc51a30f013f325fc4f76e66d75c7e5a2df4a427fdd01140568d88"
+  sha256 "be89e6f7b4610bc84df268f6be1220aad8248036d56cdb6edb964f0acc9f1e6c"
 
   url "https://github.com/s546126/disklessly/releases/download/v#{version}/Disklessly-#{version}.dmg"
   name "Disklessly"
