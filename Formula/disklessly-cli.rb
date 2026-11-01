@@ -6,7 +6,7 @@ class DisklesslyCli < Formula
   homepage "https://github.com/s546126/disklessly"
   version "0.1.0"
   url "https://github.com/s546126/disklessly/releases/download/v#{version}/disklessly-#{version}-macos-universal.tar.gz"
-  sha256 "fd60477e8879b7e42e65f4ba62391fd4b4bf01a47a01c786c1d345bb975c9b7d"
+  sha256 "95d5191d57159aa70e8a8b1b065e30415c830c645c44288be23a71202058f717"
   license "MIT"
 
   depends_on :macos
