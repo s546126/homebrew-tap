@@ -10,7 +10,7 @@ cask "disklessly" do
   desc "Offload rarely used Mac apps to a repo and launch them on demand"
   homepage "https://github.com/s546126/disklessly"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Disklessly.app"
   # The CLI and the stub launcher live in Contents/MacOS; the symlinks resolve back into the app.
