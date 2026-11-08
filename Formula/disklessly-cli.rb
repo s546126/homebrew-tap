@@ -4,9 +4,9 @@
 class DisklesslyCli < Formula
   desc "Offload rarely used Mac apps to a repo and launch them on demand"
   homepage "https://github.com/s546126/disklessly"
-  version "0.1.0"
+  version "0.2.0"
   url "https://github.com/s546126/disklessly/releases/download/v#{version}/disklessly-#{version}-macos-universal.tar.gz"
-  sha256 "95d5191d57159aa70e8a8b1b065e30415c830c645c44288be23a71202058f717"
+  sha256 "b0360992ec943ae4122f0720b1a9fa9cd743785e98cf11d3be3b216bfbf93fbe"
   license "MIT"
 
   depends_on :macos
