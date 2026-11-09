@@ -1,14 +1,14 @@
 # Homebrew cask template for Disklessly.app (menu-bar app with the CLI inside).
 # The release workflow fills in VERSION and SHA256. Copy the result into a tap
-# (for example s546126/homebrew-tap/Casks/disklessly.rb).
+# (for example nwverse/homebrew-tap/Casks/disklessly.rb).
 cask "disklessly" do
-  version "0.2.2"
-  sha256 "14d541518419e7bfaeb76f50591d775721bec982cec92221a154013003b42ddf"
+  version "0.2.3"
+  sha256 "66a1d20037b67c8a7fd5daf6580c5c3a6ffa450369119edc175546c369bf0536"
 
-  url "https://github.com/s546126/disklessly/releases/download/v#{version}/Disklessly-#{version}.dmg"
+  url "https://github.com/nwverse/disklessly/releases/download/v#{version}/Disklessly-#{version}.dmg"
   name "Disklessly"
   desc "Offload rarely used Mac apps to a repo and launch them on demand"
-  homepage "https://github.com/s546126/disklessly"
+  homepage "https://github.com/nwverse/disklessly"
 
   depends_on macos: :ventura
 

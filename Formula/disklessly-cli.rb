@@ -1,13 +1,13 @@
 # Homebrew formula template for the disklessly CLI.
 # The release workflow fills in VERSION and SHA256 from SHA256SUMS. Copy the result
-# into a tap (for example s546126/homebrew-tap/Formula/disklessly-cli.rb).
+# into a tap (for example nwverse/homebrew-tap/Formula/disklessly-cli.rb).
 class DisklesslyCli < Formula
   desc "Offload rarely used Mac apps to a repo and launch them on demand"
-  homepage "https://github.com/s546126/disklessly"
-  version "0.2.2"
-  url "https://github.com/s546126/disklessly/releases/download/v#{version}/disklessly-#{version}-macos-universal.tar.gz"
-  sha256 "470f74561010aca4f7955c71bfc6f9f2fc7c3d5e41d418cd3f7885d7e4d77f1c"
-  license "MIT"
+  homepage "https://github.com/nwverse/disklessly"
+  version "0.2.3"
+  url "https://github.com/nwverse/disklessly/releases/download/v#{version}/disklessly-#{version}-macos-universal.tar.gz"
+  sha256 "92ae0083a286d75fd32cd28b4e956680f455fdd6c7f5a678c32db51238614073"
+  license :cannot_represent
 
   depends_on :macos
 
